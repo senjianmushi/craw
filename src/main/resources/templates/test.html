@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+    华氏温度：<input type="text" name="huashidu" id="hsd" value="呜呜呜呜">
+    摄氏温度：<input type="text" name="ssd" id="ssd">
+    <button id="caculate" onclick="caculate()">计算</button>
+</body>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script>
+    function caculate() {
+        var f = $("#hsd").val();
+        var c = (f-32)*5/9;
+        $("#ssd").val(c);
+    }
+
+
+</script>
+</html>

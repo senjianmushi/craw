@@ -1,0 +1,24 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: crawl-server
+
+    #缓存
+  thymeleaf:
+    cache: false
+    #文本
+#    content-type: text/html
+    #启用
+    enabled: true
+    #编码
+    encoding: UTF-8
+    #页面
+    mode: HTML5
+    #前缀
+    prefix: classpath:/templates/
+    #后缀
+    suffix: .html
+
+chromedriver-path: D:/ProgramFiles/chromedriver_win32/chromedriver.exe

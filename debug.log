@@ -1,0 +1,4 @@
+[0128/101231.802:ERROR:file_io_win.cc(161)] CreateFile C:\Users\lhj\AppData\Local\Temp\scoped_dir40128_10402\Crashpad\settings.dat: 系统找不到指定的路径。 (0x3)
+[0128/101231.808:ERROR:file_io_win.cc(170)] CreateFile C:\Users\lhj\AppData\Local\Temp\scoped_dir40128_10402\Crashpad\reports\e0b3a1fa-d0b5-463e-8720-2d0e2e26ad3f.dmp: 系统找不到指定的路径。 (0x3)
+[0128/101231.808:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0128/101506.238:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

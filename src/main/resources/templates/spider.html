@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爬虫页面</title>
+</head>
+<body>
+    <form action="/commentSpider" method="post">
+        <table border="1" >
+            <tr>
+                <td>谷歌插件地址（D:\\ProgramFiles\\chromedriver_win32\\chromedriver.exe）：</td>
+                <td><input type="text" name="chromedriverPath" id="chromedriverPath"></td>
+            </tr>
+            <tr>
+                <td>地址目录（d://webmagic//game）：</td>
+                <td><input type="text" name="excelPath" id="excelPath"></td>
+            </tr>
+            <tr>
+                <td>天猫地址（https://detail.tmall.com/item.htm?id=566596019398）：</td>
+                <td><input type="text" name="spiderUrl" id="spiderUrl"></td>
+            </tr>
+            <tr>
+                <td>文件名（若不写则默认商品名称）：</td>
+                <td><input type="text" name="goodsName" id="goodsName"></td>
+            </tr>
+            <tr>
+                <td>【注意：若文件名相同，会直接在excel文件后面添加】</td>
+                <td><button type="submit" value="确定">开始爬虫</button></td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>
